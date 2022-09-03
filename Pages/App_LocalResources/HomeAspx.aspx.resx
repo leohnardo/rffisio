@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Form1" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Label64" xml:space="preserve">
+    <value>Dr. Rafael Freitas</value>
+  </data>
+  <data name="NavBarItem6" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="NavBarItem7" xml:space="preserve">
+    <value>QUEM SOU</value>
+  </data>
+  <data name="NavBarItem10" xml:space="preserve">
+    <value>SERVIÇOS</value>
+  </data>
+  <data name="NavBarItem9" xml:space="preserve">
+    <value>CONTATO</value>
+  </data>
+  <data name="Label1" xml:space="preserve">
+    <value>Fisioterapia e Acupuntura com atendimento domiciliar</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>A Fisioterapia Domiciliar ou também chamada de Fisioterapia Home Care tem se tornado uma tendência cada vez mais crescente e presente na vida dos pacientes, tornando o atendimento mais humanizado e individualizado. Chamada também de fisioterapia home care (o termo “home care” tem origem inglesa, e significa em tradução literal “cuidados no lar”). Essa técnica surgiu com o intuito de oferecer um ambiente mais confortável e um tratamento mais particular para cada paciente.</value>
+  </data>
+  <data name="Button2" xml:space="preserve">
+    <value>Agende uma Visita</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>FISIOTERAPEUTA</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>Dr. Rafael Freitas</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>Fisioterapia Neurofuncional &amp; Acupuntura.            Mestrando em Saúde Pública. Crefito: 268539-F</value>
+  </data>
+  <data name="Button4" xml:space="preserve">
+    <value>Ver Currículo</value>
+  </data>
+  <data name="Label23" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="Label24" xml:space="preserve">
+    <value>Rapidez</value>
+  </data>
+  <data name="Label25" xml:space="preserve">
+    <value>Diminuição das Dores</value>
+  </data>
+  <data name="Label26" xml:space="preserve">
+    <value>Baixo custo</value>
+  </data>
+  <data name="Label27" xml:space="preserve">
+    <value>Prevenção de possíveis lesões</value>
+  </data>
+  <data name="Label28" xml:space="preserve">
+    <value>Atualizações</value>
+  </data>
+  <data name="Label29" xml:space="preserve">
+    <value>Controle da insônia</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>RPG</value>
+  </data>
+  <data name="Label9" xml:space="preserve">
+    <value>O termo RPG é abreviação de Reeducação Postural Global. Trata-se de método fisioterápico para correção de desvios posturais, problemas articulares, doenças neurológicas e afecções respiratórias. Conheça as principais vantagens do método para tratamento de problemas de coluna.</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>Acupuntura</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>Um sistema de medicina integrativa que envolve picar a pele ou tecidos com agulhas, usado para aliviar a dor e tratar várias condições físicas, mentais e emocionais. Com origem na China antiga, a acupuntura é agora amplamente praticada no Ocidente.</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>Fisioterapia Neurofuncional</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>Em suas sessões, seu Praticante Neurofuncional o conduzirá através de uma tela de movimento funcional, observando como seu corpo se move como um todo e na área da lesão, garantindo que você tenha uma compreensão de sua lesão e, em seguida, fornecerá técnicas de tratamento para ajudá-lo gerir eficazmente a sua lesão, minimizar o risco de lesões futuras e voltar a mover-se livremente e com facilidade.</value>
+  </data>
+  <data name="Label45" xml:space="preserve">
+    <value>Contate-nos</value>
+  </data>
+  <data name="Label47" xml:space="preserve">
+    <value>Tel: (71) 99187-1672 / (71) 98817-2795</value>
+  </data>
+  <data name="Link1" xml:space="preserve">
+    <value>rafaelfreitasfisio@hotmail.com</value>
+  </data>
+  <data name="Label81" xml:space="preserve">
+    <value>Atendimento de Segunda a Sexta das 08h às 21h</value>
+  </data>
+</root>

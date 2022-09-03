@@ -1,0 +1,9 @@
+/* LayoutRow style: */ 
+
+.layoutrow-header-fixed {
+  transition: all 0.5s;
+}
+.layoutrow-header-fixed.header-scrolled {
+  background: #03A9F4;
+  box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+}
